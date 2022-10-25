@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+<title>About Danja Velikiy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+<header class="header">
+  <div class="header-text">Навигация</div>
+  <a href="//192.168.1.200:8000/projects" class="header-link">Портфолио</a>
+  <a href="//192.168.1.200:8000/person" class="header-link">О себе</a>
+</header>
+<section class="landing-section landing-main">
+  <div class="landing-section-content">
+    <h1 class="brand">Даня Великий</h1>
+    <h2>
+      <span class="brand-text">Фи</span>зик
+      <span class="brand-text">И</span>нженер
+    </h2>
+    <p class="landing-main-title">
+      Физическая теория подобна костюму, сшитому для природы. Хорошая теория подобна хорошо сшитому костюму, а плохая — тришкину кафтану.
+      <p class="landing-main-title-author">Яков Френкель</p>
+    </p>
+    <p class="landing-main-text">
+      О себе
+      <br>
+      Родился и вырос в красочном уголке страны, где удивительным образом стали соседями верблюды и амурские тигры, горы и степи, кочевой уклад жизни в юртах и высокотехнологичные гаджеты современной цивилизации.
+      <br>
+      В 1995-ом, в 9-ом классе, после успеха на республиканской олимпиаде, целенаправленно шел в науку, в физику, мечтал об управляемом термояде. Получалось все неплохо, но через 5 лет ботанстве, к концу третьего курса выдохся и закончив бакалавриат ушел искать себя заново. Работа учителем, дополнительное образование по юриспруденции, психологии, потом проектирование строительства сотовой связи, проектирование объектов ядерной медицины. Проектировщик, главный инженер проекта, руководитель проектного отдела, руководитель проекта, координатор проектного отдела. Чем ближе моя работа была к техническим задачам, тем больше удовольствия, чем дальше, тем грустнее. Кайфовал автоматизируя процессы и высвобождая время от выполнениях рутинных задач для творчества. Хотя иногда кайфовал делая рутину, когда брошуровал книгу и размышлял на какими то задачами, в поисках решения.
+    </p>
+  </div>
+</section>
+<section class="landing-section langing-features">
+  <section class="landing-feature feature-music-services">
+    <h2>Connect your favourite <span class="brand-text">mu</span>sic services</h2>
+    <ul>
+      <li>Spotify</li>
+      <li>Deezer</li>
+    </ul>
+  </section>
+  <section class="landing-feature feature-notifications">
+    <h2>Get <span class="brand-text">n</span>otifications wherever you want them</h2>
+    <ul>
+      <li>Email</li>
+      <li>Telegram</li>
+    </ul>
+  </section>
+</section>
+{% endblock %}
